@@ -28,7 +28,7 @@ public class RockPaperScissorsTest {
     public void testWinPlay(String p1, String p2) {
         assertEquals(rps.play(RPSEnum.valueOf(p1), RPSEnum.valueOf(p2)), Result.WIN);
     }
-    @Parameters({ "paper" ,"rock" })
+    @Parameters({ "rock" ,"rock" })
     @org.testng.annotations.Test
     public void testTiePlay(String p1, String p2){
         assertEquals(rps.play(RPSEnum.valueOf(p1), RPSEnum.valueOf(p2)), Result.TIE);
@@ -39,19 +39,16 @@ public class RockPaperScissorsTest {
         assertEquals(rps.play(RPSEnum.valueOf(p1), RPSEnum.valueOf(p2)), Result.LOST);
     }
     @org.testng.annotations.Test ( dataProvider = "winData")
-    void testWinPlay ( RPSEnum p1 , RPSEnum p2 ){
-
-
+    void testWinPlay( RPSEnum p1 , RPSEnum p2 ){
+        assertEquals(rps.play(p1, p2), Result.WIN);
     }
     @org.testng.annotations.Test ( dataProvider = "lostData")
-    void testWinPlay ( RPSEnum p1 , RPSEnum p2 ){
-
-
+    void testLostPlay ( RPSEnum p1 , RPSEnum p2 ){
+        assertEquals(rps.play(p1, p2), Result.LOST);
     }
     @org.testng.annotations.Test ( dataProvider = "tieData")
-    void testWinPlay ( RPSEnum p1 , RPSEnum p2 ){
-
-
+    void testTiePlay ( RPSEnum p1 , RPSEnum p2 ){
+        assertEquals(rps.play(p1, p2), Result.TIE);
     }
 
     @org.testng.annotations.DataProvider(name="winData")

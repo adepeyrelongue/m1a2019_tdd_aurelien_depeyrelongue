@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be47a87f-6715-4da8-8bb1-9b23c38b29cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/p10/miage/rps/model/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/p10/miage/rps/model/RPSEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/p10/miage/rps/model/RPSEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/td1/fr/p10/miage/rps/model/RockPaperScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td1/fr/p10/miage/rps/model/RockPaperScissors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/td1/fr/p10/miage/rps/tests/RockPaperScissorsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/td1/fr/p10/miage/rps/tests/RockPaperScissorsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/p10/miage/rps/model/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/p10/miage/rps/model/RockPaperScissors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/td1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/td1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/fr/p10/miage/rps/tests/RockPaperScissorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fr/p10/miage/rps/tests/RockPaperScissorsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +22,10 @@
     </testPatterns>
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/td1$C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1548691297523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/td1$C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1548693112717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="44" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -48,19 +50,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/p10/miage/rps/model/RockPaperScissors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="238">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/fr/p10/miage/rps/tests/RockPaperScissorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="296">
+              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1741#1742#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +77,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/p10/miage/rps/model/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -104,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/fr/p10/miage/rps/model/RPSEnum.java" />
         <option value="$PROJECT_DIR$/src/fr/p10/miage/rps/model/RockPaperScissors.java" />
         <option value="$PROJECT_DIR$/tests/fr/p10/miage/rps/tests/RockPaperScissorsTest.java" />
+        <option value="$PROJECT_DIR$/src/fr/p10/miage/rps/model/Player.java" />
       </list>
     </option>
   </component>
@@ -196,7 +214,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548692275644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548694177694" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
@@ -283,26 +301,11 @@
       <option name="presentableId" value="Default" />
       <updated>1548682104413</updated>
       <workItem from="1548682107873" duration="3708000" />
-      <workItem from="1548685942690" duration="4918000" />
+      <workItem from="1548685942690" duration="6636000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RockPaperScissorsTest - 2019.01.28 at 16h 29m 14s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 16h 30m 36s.xml">
-      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 16h 31m 28s.xml">
-      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 16h 35m 15s.xml">
-      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 16h 43m 20s.xml">
-      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 16h 46m 47s.xml">
       <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -318,9 +321,24 @@
     <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 17h 14m 18s.xml">
       <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 17h 26m 04s.xml">
+      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 17h 28m 33s.xml">
+      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 17h 30m 26s.xml">
+      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 17h 31m 07s.xml">
+      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Aurel_IdeaProjects_tdJava_m1a2019_tdd_aurelien_depeyrelongue_td1_testng_xml - 2019.01.28 at 17h 32m 04s.xml">
+      <configuration name="C:/Users/Aurel/IdeaProjects/tdJava/m1a2019_tdd_aurelien_depeyrelongue/td1/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8626000" />
+    <option name="totallyTimeSpent" value="10344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -336,7 +354,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +362,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3534636" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3534636" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.11983806" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -403,9 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/td1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/RockPapersScissorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -434,27 +449,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/td1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/p10/miage/rps/model/RockPaperScissors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/fr/p10/miage/rps/tests/RockPaperScissorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="296">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/p10/miage/rps/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
